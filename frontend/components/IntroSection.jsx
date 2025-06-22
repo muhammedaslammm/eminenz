@@ -1,14 +1,18 @@
 import introduction from "@/data/introduction.js";
+import Industries from "./Industries.client";
 
 const IntroSection = () => {
   return (
-    <section className="text-black w-[95%] mx-auto py-12">
-      <div>
-        <h1 className="text-[1.8rem] font-semibold uppercase">
+    <section className="text-black w-[95%] mx-auto py-10 space-y-6">
+      <div className="space-y-2">
+        <h1 className="text-[1.4rem] font-semibold uppercase">
           {introduction.title}
         </h1>
-        <p className="text-[1.4rem]">{introduction.description}</p>
+        <p className="text-[1.4rem] leading-[1.8rem]">
+          {introduction.description}
+        </p>
       </div>
+      <Industries data={introduction.industry_data} />
     </section>
   );
 };
