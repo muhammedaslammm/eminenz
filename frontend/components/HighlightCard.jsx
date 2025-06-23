@@ -1,7 +1,7 @@
 const HighlightCard = ({ highlight }) => {
   return highlight.title_first ? (
     <div
-      className="flex flex-col justify-between h-[17rem] p-6 rounded-[1rem]"
+      className="flex flex-col justify-between h-[15rem] p-6 rounded-[1rem]"
       style={{ backgroundColor: `${highlight.bg}` }}
     >
       <h4
@@ -10,18 +10,18 @@ const HighlightCard = ({ highlight }) => {
         {highlight.title}
       </h4>
       <p
-        className={`text-[1.3rem] text-neutral-600 max-w-[85%] font-light leading-[1.5rem] ${highlight.second_align}`}
+        className={`text-[1.4rem] text-neutral-500 max-w-[85%] font-light leading-[1.5rem] ${highlight.second_align}`}
       >
         {highlight.description}
       </p>
     </div>
   ) : (
     <div
-      className="flex flex-col justify-between h-[17rem] p-6 rounded-[1rem]"
+      className="flex flex-col justify-between h-[15rem] p-6 rounded-[1rem]"
       style={{ backgroundColor: `${highlight.bg}` }}
     >
       <p
-        className={`text-[1.3rem] text-neutral-600 max-w-[85%] font-light leading-[1.5rem] ${highlight.first_align}`}
+        className={`text-[1.4rem] text-neutral-500 max-w-[85%] font-light leading-[1.5rem] ${highlight.first_align}`}
       >
         {highlight.description}
       </p>

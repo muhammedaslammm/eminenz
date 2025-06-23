@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Banner from "@/components/Banner.jsx";
 import IntroSection from "@/components/IntroSection";
 import Offerings from "@/components/Offerings";
@@ -12,6 +13,7 @@ export default async function Home() {
       <Offerings />
       <WhyChooseus />
       <Partners />
+      <About />
     </>
   );
 }
