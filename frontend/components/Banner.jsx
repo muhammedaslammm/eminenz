@@ -6,12 +6,12 @@ const Banner = () => {
         alt=""
         className="w-full h-full object-cover"
       />
-      <div className="absolute bottom-[7rem] left-[3rem] space-y-6 z-10">
-        <h1 className="uppercase text-[4rem] font-semibold text-white leading-[4rem]">
+      <div className="absolute bottom-[3rem] left-[3rem] space-y-2 z-10">
+        <h1 className="uppercase text-[3rem] font-semibold text-white leading-[3.5rem]">
           <span className="block">for us,</span>
           <span className="block">business is solving problems</span>
         </h1>
-        <p className="text-[2rem] max-w-[60rem] text-neutral-300 leading-[2rem]">
+        <p className="text-[1.5rem] max-w-[60rem] text-neutral-300 leading-[2rem]">
           Delivering engineering excellence across oil & gas, power, food,
           pharma and more since 2018
         </p>

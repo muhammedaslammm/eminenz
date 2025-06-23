@@ -3,8 +3,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 const inter_tight = Inter_Tight({
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-inter-tight",
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  subset: ["latin"],
   display: "swap",
 });
 
@@ -15,8 +15,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter_tight.variable}>
-      <body className="antialiased relative font-[var(--font-inter-tight)] bg-white">
+    <html lang="en">
+      <body
+        className={`antialiased relative bg-white ${inter_tight.className}`}
+      >
         <Header />
         {children}
       </body>
