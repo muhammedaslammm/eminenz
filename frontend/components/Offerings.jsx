@@ -2,11 +2,11 @@ import offerings from "@/data/offerings";
 
 const Offerings = () => {
   return (
-    <section className="py-10 w-[95%] mx-auto space-y-4">
-      <h2 className="text-[1.4rem] uppercase font-semibold">
+    <section id="offerings" className="py-10 space-y-2 lg:space-y-4">
+      <h2 className="text-[1.2rem] lg:text-[1.4rem] uppercase font-semibold">
         {offerings.title}
       </h2>
-      <div className="space-y-4">
+      <div className="space-y-2 lg:space-y-4">
         {offerings.offerings.map((o) => (
           <div className="relative h-[20rem] overflow-hidden">
             <img
@@ -14,11 +14,11 @@ const Offerings = () => {
               alt={`image representing ${o.title}`}
               className="h-full w-full object-cover"
             />
-            <div className="absolute bottom-6 left-6 z-10 max-w-[70rem] space-y-2">
-              <h3 className="text-[1.4rem] text-white font-semibold uppercase">
+            <div className="absolute bottom-4 lg:bottom-6 left-4 lg:left-6 z-10 max-w-[70rem] space-y-1 lg:space-y-2">
+              <h3 className="text-[1rem] lg:text-[1.4rem] text-white font-semibold uppercase">
                 {o.title}
               </h3>
-              <p className="text-white/90 text-[1.4rem] leading-[1.8rem]">
+              <p className="hidden lg:block text-[1rem] lg:text-[1.4rem] text-white/90 leading-[1.5rem] lg:leading-[1.8rem]">
                 {o.description}
               </p>
             </div>

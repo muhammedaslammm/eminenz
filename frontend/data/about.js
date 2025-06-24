@@ -42,7 +42,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
-        icon: "Handshake",
+        icon: "Scales",
         title: "Integrity & Ethics",
         description:
           "We operate with honesty, transparency, and ethical rigor, maintaining confidentiality and complying with all relevant standards and regulations.",
@@ -56,6 +56,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
+        icon: "FirstAidKit",
         title: "Safety",
         description:
           "We prioritize the safety of our people, clients, and environment by upholding rigorous safety standards and fostering a strong safety culture at every level of operation.",
