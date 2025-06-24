@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 
 const inter_tight = Inter_Tight({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
-  subset: ["latin"],
+  subsets: ["latin"],
   display: "swap",
 });
 
