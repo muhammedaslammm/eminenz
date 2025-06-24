@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased relative bg-white ${inter_tight.className}`}
+        className={`antialiased relative bg-white ${inter_tight.className} overflow-x-hidden`}
       >
         <Header />
         {children}

@@ -15,7 +15,7 @@ const Footer = () => {
     >
       <div className="w-[90%] lg:w-[87%] mx-auto">
         {/* top */}
-        <div className="leading-[1.3rem] lg:leading-[2rem]">
+        <div className="leading-[1.3rem] text-center md:text-left lg:leading-[2rem]">
           <h3 className="text-[1.2rem] lg:text-[2rem] font-semibold uppercase">
             {title.company_name}
           </h3>
@@ -24,8 +24,8 @@ const Footer = () => {
           </h4>
         </div>
         {/* middle */}
-        <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row lg:-between lg:items-center mt-5 lg:mt-10 mb-10 lg:mb-50">
-          <div className="flex flex-col w-[40%] lg:w-full lg:flex-row gap-2 lg:gap-8 uppercase">
+        <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-center mt-5 lg:mt-10 mb-10 lg:mb-50">
+          <div className="flex flex-col w-[40%] lg:w-full lg:flex-row items-center md:items-start gap-2 lg:gap-8 uppercase">
             <div className="text-[.9rem] lg:text-[1rem] text-neutral-600">
               {navcontent.title}
             </div>
@@ -33,7 +33,7 @@ const Footer = () => {
               {navcontent.contents.map((c) => (
                 <a
                   href={`#${c.id}`}
-                  className="text-[.9rem] lg:text-[1rem] cursor-pointer font-medium"
+                  className="text-[.9rem] lg:text-[1rem] text-center md:text-start cursor-pointer font-medium"
                 >
                   {c.label}
                 </a>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col lg:flex-row gap-2 lg:gap-8">
             {contact.map((c) => (
-              <div className="text-[.9rem] lg:text-[1rem]">
+              <div className="text-[.9rem] text-center md:text-left lg:text-[1rem]">
                 <span className="block uppercase text-neutral-600">
                   {c.label}
                 </span>
@@ -52,9 +52,9 @@ const Footer = () => {
           </div>
         </div>
         {/* bottom */}
-        <div className="flex justify-between items-center text-neutral-600 text-[.7rem] lg:text-[.8rem]">
+        <div className="flex flex-col md:flex-row md:justify-between items-center text-neutral-600 text-[.7rem] lg:text-[.8rem]">
           <div>{copyright}</div>
-          <ul className="flex">
+          <ul className="flex gap-4">
             {media.map((m) => (
               <li>{m.label}</li>
             ))}

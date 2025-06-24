@@ -3,7 +3,7 @@ import MenuIcon from "./MenuIcon";
 
 const Header = () => {
   return (
-    <header className="absolute left-0 top-0 w-full z-10">
+    <header className="absolute left-0 top-0 w-full z-20">
       <nav className="w-[87%] mx-auto flex justify-between items-center md:items-baseline text-white py-4">
         <div className="text-[1.3rem] lg:text-[1.5rem]">
           total<span className="font-semibold">solutions</span>
