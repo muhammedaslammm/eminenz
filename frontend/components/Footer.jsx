@@ -5,7 +5,7 @@ import {
   contact,
   copyright,
   media,
-} from "@/data/data";
+} from "@/data/footerdata";
 
 const Footer = () => {
   return (
@@ -32,6 +32,7 @@ const Footer = () => {
             <ul className="grid lg:grid-cols-3 lg:gap-x-16 gap-y-1 lg:gap-y-4">
               {navcontent.contents.map((c) => (
                 <a
+                  key={c.id}
                   href={`#${c.id}`}
                   className="text-[.9rem] lg:text-[1rem] text-center md:text-start cursor-pointer font-medium"
                 >
@@ -42,7 +43,10 @@ const Footer = () => {
           </div>
           <div className="flex flex-col lg:flex-row gap-2 lg:gap-12 lg:w-full lg:justify-end">
             {contact.map((c) => (
-              <div className="text-[.9rem] text-center md:text-left lg:text-[1rem]">
+              <div
+                key={c.id}
+                className="text-[.9rem] text-center md:text-left lg:text-[1rem]"
+              >
                 <span className="block uppercase text-neutral-600">
                   {c.label}
                 </span>
@@ -56,7 +60,7 @@ const Footer = () => {
           <div>{copyright}</div>
           <ul className="flex gap-4">
             {media.map((m) => (
-              <li>{m.label}</li>
+              <li key={m.id}>{m.label}</li>
             ))}
           </ul>
         </div>

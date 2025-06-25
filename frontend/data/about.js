@@ -21,6 +21,7 @@ const about = {
     title: "our values",
     values: [
       {
+        id: 1,
         icon: "User",
         title: "Customer Focus",
         description:
@@ -28,6 +29,7 @@ const about = {
         bg: "rgba(180,211,227,0.65)",
       },
       {
+        id: 2,
         icon: "Gear",
         title: "Technical Excellence",
         description:
@@ -35,6 +37,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
+        id: 3,
         icon: "ShieldCheck",
         title: "Reliability & Efficiency",
         description:
@@ -42,6 +45,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
+        id: 4,
         icon: "Scales",
         title: "Integrity & Ethics",
         description:
@@ -49,6 +53,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
+        id: 5,
         icon: "Handshake",
         title: "Strategic & Long-Lasting Partnerships",
         description:
@@ -56,6 +61,7 @@ const about = {
         bg: "rgba(73,139,154,.10)",
       },
       {
+        id: 6,
         icon: "FirstAidKit",
         title: "Safety",
         description:

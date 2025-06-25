@@ -29,6 +29,7 @@ const Values = ({ values }) => {
           let Icon = icons[v.icon];
           return (
             <div
+              key={v.id}
               style={{ backgroundColor: `${v.bg}` }}
               className="p-6 rounded-[.8rem] space-y-3"
             >

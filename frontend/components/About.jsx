@@ -15,16 +15,20 @@ const About = () => {
             </div>
           </div>
           <div className="space-y-4">
-            {[about.description1, about.description2].map((desc) => (
-              <p className="text-justify text-[1.1rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem]">
+            {[about.description1, about.description2].map((desc, i) => (
+              <p
+                key={i}
+                className="text-justify text-[1.1rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem]"
+              >
                 {desc}
               </p>
             ))}
           </div>
         </div>
         <div className="right lg:w-2/6 flex flex-col gap-4">
-          {[about.vision, about.mission].map((sec) => (
+          {[about.vision, about.mission].map((sec, i) => (
             <div
+              key={i}
               className="flex-1 p-4 lg:p-6 rounded-[.5rem] space-y-1"
               style={{ backgroundColor: `${sec.bg}` }}
             >

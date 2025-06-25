@@ -29,13 +29,16 @@ const Industries = ({ data }) => {
         {data.title}
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-8 gap-2 lg:gap-10">
-        {data.icons.map(({ title, icon }) => {
+        {data.icons.map(({ icon, ...rest }) => {
           let Icon = iconMap[icon];
           return (
-            <div className="flex flex-col flex-wrap items-center gap-2 border border-[rgba(58,83,96,0.63)] lg:border-0 lg:bg-[rgba(180,211,227,0.65)] py-6 lg:py-8 rounded-[.2rem] lg:rounded-[.5rem]">
+            <div
+              key={rest.id}
+              className="flex flex-col flex-wrap items-center gap-2 border border-[rgba(58,83,96,0.63)] lg:border-0 lg:bg-[rgba(180,211,227,0.65)] py-6 lg:py-8 rounded-[.2rem] lg:rounded-[.5rem]"
+            >
               <Icon className="w-7 h-7" weight="light" />
               <span className="uppercase text-center text-[.8rem] lg:text-[.8rem] font-medium">
-                {title}
+                {rest.title}
               </span>
             </div>
           );

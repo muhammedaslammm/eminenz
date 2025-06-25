@@ -11,7 +11,7 @@ const Offerings = () => {
       </h2>
       <div className="space-y-4">
         {offerings.offerings.map((o) => (
-          <div className="relative h-[20rem] overflow-hidden">
+          <div key={o.id} className="relative h-[20rem] overflow-hidden">
             <img
               src={o.image}
               alt={`image representing ${o.title}`}

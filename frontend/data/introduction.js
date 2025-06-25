@@ -5,14 +5,14 @@ const introduction = {
   industry_data: {
     title: "We serve our products and services to",
     icons: [
-      { title: "Oil & Gas", icon: "Factory" },
-      { title: "Power", icon: "Lightning" },
-      { title: "Food Processing", icon: "Leaf" },
-      { title: "Pharmaceuticals", icon: "Pill" },
-      { title: "Cosmetics", icon: "Flask" },
-      { title: "Glass", icon: "FrameCorners" },
-      { title: "Cement", icon: "Cube" },
-      { title: "Water Treatment", icon: "Recycle" },
+      { id: 1, title: "Oil & Gas", icon: "Factory" },
+      { id: 2, title: "Power", icon: "Lightning" },
+      { id: 3, title: "Food Processing", icon: "Leaf" },
+      { id: 4, title: "Pharmaceuticals", icon: "Pill" },
+      { id: 5, title: "Cosmetics", icon: "Flask" },
+      { id: 6, title: "Glass", icon: "FrameCorners" },
+      { id: 7, title: "Cement", icon: "Cube" },
+      { id: 8, title: "Water Treatment", icon: "Recycle" },
     ],
   },
 };

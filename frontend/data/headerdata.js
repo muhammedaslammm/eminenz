@@ -1,11 +1,11 @@
 const headerdata = {
   navs: [
-    { label: "Home", id: "" },
-    { label: "Industries", id: "introduction" },
-    { label: "Offerings", id: "offerings" },
-    { label: "Highlights", id: "highlights" },
-    { label: "Partners", id: "partners" },
-    { label: "About", id: "about" },
+    { id: 1, label: "Home", id: "" },
+    { id: 2, label: "Industries", id: "introduction" },
+    { id: 3, label: "Offerings", id: "offerings" },
+    { id: 4, label: "Highlights", id: "highlights" },
+    { id: 5, label: "Partners", id: "partners" },
+    { id: 6, label: "About", id: "about" },
   ],
 };
 

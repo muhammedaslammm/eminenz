@@ -11,7 +11,7 @@ const Partners = () => {
       </h3>
       <div className="w-[50%] mx-auto lg:w-full grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-4">
         {partners.partners.map((p) => (
-          <img src={p.image} alt="" />
+          <img key={p.id} src={p.image} alt="" />
         ))}
       </div>
     </section>
