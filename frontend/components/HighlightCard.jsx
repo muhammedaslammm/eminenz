@@ -5,7 +5,7 @@ const HighlightCard = ({ highlight }) => {
       style={{ backgroundColor: `${highlight.bg}` }}
     >
       <h4
-        className={`text-[1.1rem] lg:text-[1.3rem] font-semibold uppercase ${highlight.first_align}`}
+        className={`text-[1rem] lg:text-[1.3rem] font-semibold uppercase ${highlight.first_align}`}
       >
         {highlight.title}
       </h4>
@@ -26,7 +26,7 @@ const HighlightCard = ({ highlight }) => {
         {highlight.description}
       </p>
       <h4
-        className={`text-[1.1rem] lg:text-[1.3rem] font-semibold uppercase ${highlight.second_align}`}
+        className={`text-[1rem] lg:text-[1.3rem] font-semibold uppercase ${highlight.second_align}`}
       >
         {highlight.title}
       </h4>

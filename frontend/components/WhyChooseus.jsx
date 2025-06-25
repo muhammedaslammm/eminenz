@@ -9,8 +9,11 @@ const WhyChooseus = () => {
     (h) => h.card_position === "bottom"
   );
   return (
-    <section id="highlights" className="py-10 space-y-2 lg:space-y-4">
-      <h3 className="text-[1.2rem] lg:text-[1.4rem] font-semibold uppercase">
+    <section
+      id="highlights"
+      className="w-[90%] lg:w-[87%] mx-auto py-10 space-y-2 lg:space-y-4"
+    >
+      <h3 className="text-[1.1rem] lg:text-[1.4rem] font-semibold uppercase">
         {highlights.title}
       </h3>
       <div className="space-y-6">

@@ -3,11 +3,11 @@ import Values from "./Values.client.jsx";
 
 const About = () => {
   return (
-    <section id="about" className="py-10 space-y-8">
+    <section id="about" className="w-[90%] lg:w-[87%] mx-auto py-10 space-y-8">
       <div className="top flex flex-col lg:flex-row gap-8">
-        <div className="left lg:w-4/6 space-y-2 lg:space-y-4">
-          <div>
-            <h3 className="text-[1.2rem] lg:text-[1.4rem] font-semibold uppercase">
+        <div className="left lg:w-4/6 space-y-4 lg:space-y-4">
+          <div className="leading-[1.3rem]">
+            <h3 className="text-[1.1rem] lg:text-[1.4rem] font-semibold uppercase">
               {about.title}
             </h3>
             <div className="text-[1rem] lg:text-[1.2rem] text-neutral-400">
@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="space-y-4">
             {[about.description1, about.description2].map((desc) => (
-              <p className="text-justify text-[1.2rem] lg:text-[1.3rem] leading-[1.6rem] lg:leading-[1.8rem]">
+              <p className="text-justify text-[1.1rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem]">
                 {desc}
               </p>
             ))}
@@ -28,7 +28,7 @@ const About = () => {
               className="flex-1 p-4 lg:p-6 rounded-[.5rem] space-y-1"
               style={{ backgroundColor: `${sec.bg}` }}
             >
-              <h3 className="text-[1.1rem] lg:text-[1.2rem] font-medium lg:font-semibold capitalize">
+              <h3 className="text-[1rem] uppercase lg:capitalize lg:text-[1.2rem] font-medium ">
                 {sec.title}
               </h3>
               <p className="text-[1.1rem] lg:text-[1.2rem] text-neutral-600 leading-[1.6rem] lg:leading-[1.8rem]">

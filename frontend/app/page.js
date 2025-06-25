@@ -10,13 +10,11 @@ export default async function Home() {
   return (
     <>
       <Banner />
-      <div className="w-[90%] lg:w-[87%] mx-auto">
-        <IntroSection />
-        <Offerings />
-        <WhyChooseus />
-        <Partners />
-        <About />
-      </div>
+      <IntroSection />
+      <Offerings />
+      <WhyChooseus />
+      <Partners />
+      <About />
       <Footer />
     </>
   );

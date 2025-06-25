@@ -15,21 +15,21 @@ const Footer = () => {
     >
       <div className="w-[90%] lg:w-[87%] mx-auto">
         {/* top */}
-        <div className="leading-[1.3rem] text-center md:text-left lg:leading-[2rem]">
+        <div className="leading-[1.3rem] text-center md:text-left lg:leading-[2.2rem]">
           <h3 className="text-[1.2rem] lg:text-[2rem] font-semibold uppercase">
             {title.company_name}
           </h3>
-          <h4 className="text-[.9rem] lg:text-[1.2rem] text-neutral-700 lg:text-black font-medium lg:uppercase">
+          <h4 className="text-[.8rem] lg:text-[1.1rem] tracking-[.05rem] text-neutral-700 lg:text-black uppercase">
             {title.tagline}
           </h4>
         </div>
         {/* middle */}
-        <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-center mt-5 lg:mt-10 mb-10 lg:mb-50">
+        <div className="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center lg:items-start lg:justify-between mt-5 lg:mt-10 mb-10 lg:mb-30">
           <div className="flex flex-col w-[40%] lg:w-full lg:flex-row items-center md:items-start gap-2 lg:gap-8 uppercase">
             <div className="text-[.9rem] lg:text-[1rem] text-neutral-600">
               {navcontent.title}
             </div>
-            <ul className="grid lg:grid-cols-3 lg:gap-x-4 gap-y-1 lg:gap-y-2">
+            <ul className="grid lg:grid-cols-3 lg:gap-x-16 gap-y-1 lg:gap-y-4">
               {navcontent.contents.map((c) => (
                 <a
                   href={`#${c.id}`}
@@ -40,7 +40,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="flex flex-col lg:flex-row gap-2 lg:gap-8">
+          <div className="flex flex-col lg:flex-row gap-2 lg:gap-12 lg:w-full lg:justify-end">
             {contact.map((c) => (
               <div className="text-[.9rem] text-center md:text-left lg:text-[1rem]">
                 <span className="block uppercase text-neutral-600">

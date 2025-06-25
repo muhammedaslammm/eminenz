@@ -25,7 +25,7 @@ const Banner = () => {
           alt=""
           className="w-full h-screen md:h-full object-cover"
         />
-        <div className="absolute bottom-[70%] translate-y-[70%] left-[50%] -translate-x-[50%] w-full text-center lg:text-left lg:bottom-[4rem] lg:left-[6rem] space-y-2 z-10">
+        <div className="absolute bottom-[70%] translate-y-[70%] left-[50%] -translate-x-[50%] w-full text-center lg:text-left lg:translate-[0] lg:bottom-[4rem] lg:left-[6rem] space-y-2 z-10">
           <h1 className="uppercase text-[2rem] lg:text-[3rem] font-semibold text-white leading-[2.2rem] lg:leading-[3.5rem]">
             <span className="block">for us,</span>
             <span className="block">business is solving problems</span>
