@@ -1,7 +1,8 @@
 import OfferingsBanner from "@/components/OfferingsBanner";
 import offerings from "@/data/offerings";
 
-const OfferingPage = async ({ params }) => {
+const OfferingPage = async (context) => {
+  const { params } = await context;
   const { offering_slug } = params;
   const data = offerings.offerings.find((data) => offering_slug === data.slug);
   if (!data) return <h1>no products found!</h1>;
