@@ -11,13 +11,15 @@ import usePageInfo from "@/utils/usePageInfo";
 
 const Footer = () => {
   const { pagestyle } = usePageInfo();
-  let { bg_color, main_text, sub_text } = pagestyle;
   return (
     <footer
       className="pt-5 lg:pt-10 pb-1 lg:pb-2"
-      style={{ backgroundColor: bg_color }}
+      style={{ backgroundColor: pagestyle.bg_color }}
     >
-      <div className="w-[90%] lg:w-[87%] mx-auto " style={{ color: main_text }}>
+      <div
+        className="w-[90%] lg:w-[87%] mx-auto "
+        style={{ color: pagestyle.main_text }}
+      >
         {/* top */}
         <div className="leading-[1.3rem] text-center md:text-left lg:leading-[2.2rem]">
           <h3 className="text-[1.2rem] lg:text-[2rem] font-semibold uppercase">
@@ -25,7 +27,7 @@ const Footer = () => {
           </h3>
           <h4
             className="text-[.8rem] lg:text-[1.1rem] tracking-[.05rem] uppercase"
-            style={{ color: sub_text }}
+            style={{ color: pagestyle.sub_text }}
           >
             {title.tagline}
           </h4>
@@ -35,7 +37,7 @@ const Footer = () => {
           <div className="flex flex-col w-[40%] lg:w-full lg:flex-row items-center md:items-start gap-2 lg:gap-8 uppercase">
             <div
               className="text-[.9rem] lg:text-[1rem]"
-              style={{ color: sub_text }}
+              style={{ color: pagestyle.sub_text }}
             >
               {navcontent.title}
             </div>
@@ -57,7 +59,10 @@ const Footer = () => {
                 key={c.id}
                 className="text-[.9rem] text-center md:text-left lg:text-[1rem]"
               >
-                <span className="block uppercase" style={{ color: sub_text }}>
+                <span
+                  className="block uppercase"
+                  style={{ color: pagestyle.sub_text }}
+                >
                   {c.label}
                 </span>
                 <span className="font-medium">{c.value}</span>
@@ -68,7 +73,7 @@ const Footer = () => {
         {/* bottom */}
         <div
           className="flex flex-col md:flex-row md:justify-between items-center text-[.7rem] lg:text-[.8rem]"
-          style={{ color: sub_text }}
+          style={{ color: pagestyle.sub_text }}
         >
           <div>{copyright}</div>
           <ul className="flex gap-4">

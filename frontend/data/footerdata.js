@@ -1,5 +1,5 @@
 const meta = {
-  bg: "rgba(180,211,227,0.65)",
+  bg_color: "rgba(180,211,227,0.65)",
 };
 
 const title = {

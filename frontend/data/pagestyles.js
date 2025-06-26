@@ -1,6 +1,6 @@
 const pagestyles = [
   {
-    slug: "",
+    slug: "home",
     bg_color: "rgba(180,211,227,0.65)",
     main_text: "#000000",
     sub_text: "#525252",
