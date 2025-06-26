@@ -1,10 +1,10 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner.jsx";
-import Footer from "@/components/Footer";
 import IntroSection from "@/components/IntroSection";
 import Offerings from "@/components/Offerings";
 import Partners from "@/components/Partners";
 import WhyChooseus from "@/components/WhyChooseus";
+import Menu from "@/components/Menu";
 
 export default async function Home() {
   return (
@@ -15,6 +15,7 @@ export default async function Home() {
       <WhyChooseus />
       <Partners />
       <About />
+      <Menu />
     </>
   );
 }

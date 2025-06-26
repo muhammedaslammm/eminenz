@@ -13,7 +13,12 @@ const Banner = () => {
       { threshold: 0.05 }
     );
     if (bannerRef.current) observer.observe(bannerRef.current);
-    return () => observer.unobserve(bannerRef.current);
+    return () => {
+      if (bannerRef.current) {
+        observer.unobserve(bannerRef.current);
+        observer.disconnect();
+      }
+    };
   }, []);
 
   return (
