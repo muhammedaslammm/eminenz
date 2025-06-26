@@ -15,15 +15,17 @@ const OfferingPage = async ({ params }) => {
       <div className="w-[90%] lg:w-[87%] mx-auto space-y-6">
         {data.sections.map((section) => (
           <div key={section.id} className="space-y-2">
-            <h2 className="text-[1.2rem] font-medium">{section.title}</h2>
-            <div className="grid grid-cols-1 gap-4">
+            <h2 className="text-[1.1rem] lg:text-[1.2rem] font-medium">
+              {section.title}
+            </h2>
+            <div className="grid grid-cols-1 gap-6 lg:gap-4">
               {section.items.map((item) => (
                 <div
                   key={item.id}
-                  className="border border-neutral-200 shadow-[0_0_.3rem_0rem_#EFF0F1]  p-8 rounded-[1rem] space-y-2 text-[1.1rem]"
+                  className="border border-neutral-200 shadow-[0_0_.3rem_0rem_#EFF0F1] p-4 lg:p-8 rounded-[1rem] space-y-2 text-[1.1rem]"
                 >
                   <h3 className="font-medium">{item.title}</h3>
-                  <ul>
+                  <ul className="list-disc list-inside">
                     {item.values.map((value, index) => (
                       <li key={index}>{value}</li>
                     ))}

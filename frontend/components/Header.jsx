@@ -29,23 +29,11 @@ const Header = () => {
                 </a>
               ))}
             </div>
+            <MenuIcon />
           </>
         ) : (
-          <>
-            <div className="hidden md:block space-x-10">
-              {headerdata.offerings_navs.map((data, i) => (
-                <Link
-                  key={data.id}
-                  href={data.path}
-                  className="text-[1.1rem] font-medium"
-                >
-                  <span className="capitalize">{data.label}</span>
-                </Link>
-              ))}
-            </div>
-          </>
+          <></>
         )}
-        <MenuIcon />
       </nav>
     </header>
   );
