@@ -3,6 +3,7 @@ import headerdata from "@/data/headerdata";
 import { XCircle } from "phosphor-react";
 import { AppContext } from "@/context/appContext";
 import { useContext } from "react";
+import Link from "next/link";
 const Menu = () => {
   const { menuStat, handleMenuStat } = useContext(AppContext);
   return (
@@ -22,18 +23,32 @@ const Menu = () => {
         <XCircle size={24} color="#630f16" onClick={handleMenuStat} />
       </div>
       <ul>
-        {headerdata.navs.map((d) => (
-          <li key={d.id} className="py-2">
-            <a
-              href={`#${d.id}`}
-              key={d}
-              className="text-[1.1rem]"
-              onClick={handleMenuStat}
-            >
-              {d.label}
-            </a>
-          </li>
-        ))}
+        {headerdata.navs.map((item) => {
+          if (item.path.startsWith("/"))
+            return (
+              <li key={item.id} className="py-2">
+                <Link
+                  href={item.path}
+                  className="text-[1.1rem]"
+                  onClick={handleMenuStat}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          else
+            return (
+              <li key={item.id} className="py-2">
+                <a
+                  href={item.path}
+                  className="text-[1.1rem]"
+                  onClick={handleMenuStat}
+                >
+                  {item.label}
+                </a>
+              </li>
+            );
+        })}
       </ul>
 
       <div></div>
