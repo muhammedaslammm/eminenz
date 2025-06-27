@@ -23,7 +23,7 @@ const Header = () => {
         </Link>
         {home ? (
           <>
-            <div className={`hidden md:block space-x-10`}>
+            <div className="hidden md:block space-x-10">
               {headerdata.navs.map((data) => {
                 if (data.path.startsWith("/"))
                   return (

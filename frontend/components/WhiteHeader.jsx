@@ -1,12 +1,9 @@
 "use client";
 import headerdata from "@/data/headerdata";
 import MenuIcon from "./MenuIcon";
-import usePageInfo from "@/utils/usePageInfo";
 import Link from "next/link";
 
 const WhiteHeader = ({ state }) => {
-  const { home } = usePageInfo();
-  console.log("home:", home);
   return (
     <header
       className={`fixed left-0 top-0 w-full z-20 ${
