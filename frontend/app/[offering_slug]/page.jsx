@@ -1,11 +1,20 @@
+// export const dynamic = "force-static";
+
 import OfferingsBanner from "@/components/OfferingsBanner";
 import offerings from "@/data/offerings";
+import { notFound } from "next/navigation";
 
-const OfferingPage = async (context) => {
-  const { params } = await context;
-  const { offering_slug } = params;
+// export async function generateStaticParams() {
+//   return offerings.offerings.map((item) => ({
+//     offering_slug: item.slug,
+//   }));
+// }
+
+export default async function OfferingPage({ params }) {
+  const { offering_slug } = await params;
+
   const data = offerings.offerings.find((data) => offering_slug === data.slug);
-  if (!data) return <h1>no products found!</h1>;
+  if (!data) return notFound();
   return (
     <section className="pb-8 space-y-6">
       <OfferingsBanner
@@ -39,5 +48,4 @@ const OfferingPage = async (context) => {
       </div>
     </section>
   );
-};
-export default OfferingPage;
+}

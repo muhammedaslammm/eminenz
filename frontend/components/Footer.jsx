@@ -11,6 +11,7 @@ import usePageInfo from "@/utils/usePageInfo";
 
 const Footer = () => {
   const { pagestyle } = usePageInfo();
+  console.log("style for the current page:", pagestyle);
   return (
     <footer
       className="pt-5 lg:pt-10 pb-1 lg:pb-2"
