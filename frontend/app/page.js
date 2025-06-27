@@ -5,6 +5,7 @@ import Offerings from "@/components/Offerings";
 import Partners from "@/components/Partners";
 import WhyChooseus from "@/components/WhyChooseus";
 import Menu from "@/components/Menu";
+import Table from "@/components/Table";
 
 export default async function Home() {
   return (
@@ -15,6 +16,7 @@ export default async function Home() {
       <WhyChooseus />
       <Partners />
       <About />
+      <Table />
       <Menu />
     </>
   );
