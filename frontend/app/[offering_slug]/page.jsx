@@ -32,7 +32,7 @@ export default async function OfferingPage({ params }) {
               {section.items.map((item) => (
                 <div
                   key={item.id}
-                  className="border border-neutral-200 shadow-[0_0_.3rem_0rem_#EFF0F1] p-4 lg:p-8 rounded-[1rem] space-y-2 text-[1.1rem]"
+                  className="border border-neutral-200 shadow-[0_0_.3rem_0rem_#EFF0F1] p-4 lg:p-8 rounded-[1rem] space-y-1 md:space-y-2 text-[1rem]"
                 >
                   <h3 className="font-medium">{item.title}</h3>
                   <ul className="list-disc list-inside">
