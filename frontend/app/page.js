@@ -6,6 +6,7 @@ import Partners from "@/components/Partners";
 import WhyChooseus from "@/components/WhyChooseus";
 import Menu from "@/components/Menu";
 import Table from "@/components/Table";
+import Contact from "@/components/Contact";
 
 export default async function Home() {
   return (
@@ -17,6 +18,7 @@ export default async function Home() {
       <Partners />
       <About />
       <Table />
+      <Contact />
       <Menu />
     </>
   );

@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="w-[90%] lg:w-[87%] mx-auto py-10 space-y-8">
       <div className="top flex flex-col lg:flex-row gap-8">
         <div className="left lg:w-4/6 space-y-4 lg:space-y-4">
-          <div className="leading-[1.3rem]">
+          <div className="leading-[1.8rem]">
             <h3 className="text-[1.1rem] lg:text-[1.4rem] font-semibold uppercase">
               {about.title}
             </h3>
