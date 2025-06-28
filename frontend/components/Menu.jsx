@@ -26,7 +26,9 @@ const Menu = () => {
         {headerdata.navs.map((item) => (
           <li key={item.id} className="py-2">
             <Link href={item.path}>
-              <span className="text-[1.1rem]">{item.label}</span>
+              <span className="text-[1.1rem]" onClick={handleMenuStat}>
+                {item.label}
+              </span>
             </Link>
           </li>
         ))}
