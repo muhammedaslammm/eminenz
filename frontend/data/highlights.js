@@ -10,7 +10,7 @@ const highlights = {
       title_first: false,
       first_align: "self-start text-start",
       second_aligh: "self-end text-end",
-      bg: "rgba(180,211,227,0.65)",
+      bg: "rgba(188,213,227,.40)",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const highlights = {
       title_first: false,
       first_align: "self-end text-end",
       second_aligh: "self-start text-start",
-      bg: "rgba(73,139,154,.10)",
+      bg: "",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const highlights = {
       title_first: true,
       first_align: "self-start text-start",
       second_aligh: "self-start text-start",
-      bg: "rgba(73,139,154,.10)",
+      bg: "",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const highlights = {
       title_first: false,
       first_align: "self-end text-end",
       second_aligh: "self-start text-start",
-      bg: "rgba(73,139,154,.10)",
+      bg: "", //rgba(188,213,227,.40)
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ const highlights = {
       title_first: true,
       first_align: "self-end text-end",
       second_aligh: "self-end text-end",
-      bg: "rgba(180,211,227,0.65)",
+      bg: "rgba(188,213,227,.40)",
     },
   ],
 };

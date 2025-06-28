@@ -9,13 +9,13 @@ const about = {
     title: "our vision",
     description:
       "To deliver high-quality engineering solutions that enhance client productivity and reduce downtime.",
-    bg: "rgba(180,211,227,0.65)",
+    bg: "rgba(188,213,227,.40)",
   },
   mission: {
     title: "our mission",
     description:
       "Our work culture thrives on continuous improvement, integrity, and client satisfaction… simplifying complex industrial needs through quality, safety, and on-time delivery.",
-    bg: "rgba(73,139,154,.10)",
+    bg: "",
   },
   values: {
     title: "our values",
@@ -26,7 +26,7 @@ const about = {
         title: "Customer Focus",
         description:
           "We are deeply committed to understanding and fulfilling our clients’ needs through tailored solutions, exceptional service, and continuous feedback-driven improvement.",
-        bg: "rgba(180,211,227,0.65)",
+        bg: "rgba(188,213,227,.40)",
       },
       {
         id: 2,
@@ -34,7 +34,7 @@ const about = {
         title: "Technical Excellence",
         description:
           "We pursue excellence in every technical domain—design, installation, maintenance, and troubleshooting—by leveraging expert talent and investing in ongoing training and innovation.",
-        bg: "rgba(73,139,154,.10)",
+        bg: "",
       },
       {
         id: 3,
@@ -42,7 +42,7 @@ const about = {
         title: "Reliability & Efficiency",
         description:
           "We consistently deliver high-performing solutions through streamlined processes, advanced technologies, and strict adherence to timelines and budgets.",
-        bg: "rgba(73,139,154,.10)",
+        bg: "",
       },
       {
         id: 4,
@@ -50,7 +50,7 @@ const about = {
         title: "Integrity & Ethics",
         description:
           "We operate with honesty, transparency, and ethical rigor, maintaining confidentiality and complying with all relevant standards and regulations.",
-        bg: "rgba(73,139,154,.10)",
+        bg: "",
       },
       {
         id: 5,
@@ -58,7 +58,7 @@ const about = {
         title: "Strategic & Long-Lasting Partnerships",
         description:
           "Our collaborations with industry-leading partners ensure timely, reliable delivery. We foster relationships built on trust, consistency, and shared growth.",
-        bg: "rgba(73,139,154,.10)",
+        bg: "",
       },
       {
         id: 6,
@@ -66,7 +66,7 @@ const about = {
         title: "Safety",
         description:
           "We prioritize the safety of our people, clients, and environment by upholding rigorous safety standards and fostering a strong safety culture at every level of operation.",
-        bg: "rgba(180,211,227,0.65)",
+        bg: "rgba(188,213,227,.40)",
       },
     ],
   },

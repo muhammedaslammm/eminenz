@@ -20,7 +20,7 @@ const EnquiryForm = () => {
   const getButtonContent = () => {
     switch (submitState) {
       case "loading":
-        return <Spinner className="animate-spin" />;
+        return <Spinner className="animate-spin w-5 h-5 lg:w-6 lg:h-6" />;
       case "success":
         return responseMessage;
       case "fail":
@@ -33,7 +33,7 @@ const EnquiryForm = () => {
   const onSubmit = async (data) => {
     setSubmitState("loading");
     try {
-      const response = await fetch("/api/enquiry/route", {
+      const response = await fetch("/api/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -43,30 +43,26 @@ const EnquiryForm = () => {
       const response_data = await response.json();
       if (response.ok) {
         setResponseMessage(response_data.message);
-        setResponseStat(true);
         reset();
         setSubmitState("success");
         setTimeout(() => {
           setSubmitState("idle");
-        }, 1000);
-      } else {
-        setResponseMessage(response_data.message);
-        setResponseStat(false);
-        setSubmitState("fail");
-        setTimeout(() => {
-          setSubmitState("idle");
-        });
-      }
+        }, 1500);
+      } else throw new Error(response_data.message);
     } catch (error) {
-      console.log("error", error.message);
+      setResponseMessage(error.message);
+      setSubmitState("fail");
+      setTimeout(() => {
+        setSubmitState("idle");
+      }, 1500);
     }
   };
   return (
     <form
-      className="w-4/6 border border-neutral-400 p-4 space-y-4"
+      className="w-full lg:w-4/6 lg:border border-neutral-400 p-0 lg:p-4 space-y-4"
       onSubmit={handleSubmit(onSubmit)}
     >
-      <div className="w-full flex gap-4">
+      <div className="w-full flex flex-col lg:flex-row gap-4">
         <div className="w-full space-y-1">
           <div className="flex justify-between items-center">
             <label htmlFor="" className="block">
@@ -121,7 +117,16 @@ const EnquiryForm = () => {
       </div>
       <button
         type="submit"
-        className={`bg-black/80 text-white font-medium mt-4 w-full p-2 cursor-pointer flex justify-center`}
+        className={`${
+          submitState === "loading"
+            ? "bg-black/60 cursor-not-allowed"
+            : submitState === "success"
+            ? "bg-green-800"
+            : submitState === "fail"
+            ? "bg-red-800"
+            : "bg-black/90"
+        } text-white text-[.9rem] lg:text-[1rem] transition-transform font-medium mt-4 w-full p-2 cursor-pointer flex justify-center`}
+        disabled={submitState !== "idle"}
       >
         {getButtonContent()}
       </button>

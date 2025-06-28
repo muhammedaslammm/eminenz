@@ -1,7 +1,8 @@
 const HighlightCard = ({ highlight }) => {
+  const box_style = highlight.bg ? "" : "border border-neutral-300";
   return highlight.title_first ? (
     <div
-      className="flex flex-col justify-between h-[15rem] p-6 rounded-[1rem]"
+      className={`border border-neutral-300 flex flex-col justify-between h-[12rem] p-6 rounded-[1rem]`}
       style={{ backgroundColor: `${highlight.bg}` }}
     >
       <h4
@@ -17,7 +18,7 @@ const HighlightCard = ({ highlight }) => {
     </div>
   ) : (
     <div
-      className=" flex flex-col justify-between h-[15rem] p-6 rounded-[1rem]"
+      className={`border border-neutral-300 flex flex-col justify-between h-[12rem] p-6 rounded-[1rem]`}
       style={{ backgroundColor: `${highlight.bg}` }}
     >
       <p

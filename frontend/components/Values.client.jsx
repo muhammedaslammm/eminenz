@@ -27,11 +27,12 @@ const Values = ({ values }) => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {values.values.map((v) => {
           let Icon = icons[v.icon];
+          let box_style = v.bg ? "" : "border border-neutral-300";
           return (
             <div
               key={v.id}
               style={{ backgroundColor: `${v.bg}` }}
-              className="p-6 rounded-[.8rem] space-y-3"
+              className={`border border-neutral-300 p-6 rounded-[.8rem] space-y-3`}
             >
               <Icon className="w-6 lg:w-8 h-6 lg:h-8" weight="regular" />
               <div className="space-y-0">
