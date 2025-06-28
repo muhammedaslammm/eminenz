@@ -16,7 +16,7 @@ export default async function OfferingPage({ params }) {
   const data = offerings.offerings.find((data) => offering_slug === data.slug);
   if (!data) return notFound();
   return (
-    <section className="pb-8 space-y-6">
+    <section className="pb-8 pt-12 space-y-6">
       <OfferingsBanner
         title={data.title}
         description={data.description}
@@ -28,7 +28,7 @@ export default async function OfferingPage({ params }) {
             <h2 className="text-[1.1rem] lg:text-[1.2rem] font-medium">
               {section.title}
             </h2>
-            <div className="grid grid-cols-4 gap-6 lg:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4">
               {section.items.map((item) => (
                 <div
                   key={item.id}

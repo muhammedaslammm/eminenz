@@ -3,3 +3,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+.heading--component{
+  @apply text-[#11416F]
+}
+
+.box-background--blue{
+  @apply bg-[#11416F]
+}
+.box-background--gold{
+  @apply bg-[#AD8746]
+}
+
+.text--gold{
+  @apply text-[#AD8746]
+}

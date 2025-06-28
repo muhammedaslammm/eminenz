@@ -9,7 +9,8 @@ const about = {
     title: "our vision",
     description:
       "To deliver high-quality engineering solutions that enhance client productivity and reduce downtime.",
-    bg: "rgba(188,213,227,.40)",
+    bg: "rgba(17,65,111,.10)",
+    text_color: "rgb(17,65,111)",
   },
   mission: {
     title: "our mission",
@@ -26,7 +27,8 @@ const about = {
         title: "Customer Focus",
         description:
           "We are deeply committed to understanding and fulfilling our clients’ needs through tailored solutions, exceptional service, and continuous feedback-driven improvement.",
-        bg: "rgba(188,213,227,.40)",
+        bg: "rgba(173,135,70,.10)", //rgba(188,213,227,.40),
+        text_color: "rgb(173,135,70)",
       },
       {
         id: 2,
@@ -66,7 +68,8 @@ const about = {
         title: "Safety",
         description:
           "We prioritize the safety of our people, clients, and environment by upholding rigorous safety standards and fostering a strong safety culture at every level of operation.",
-        bg: "rgba(188,213,227,.40)",
+        bg: "rgba(17,65,111,.10)",
+        text_color: "rgb(17,65,111)",
       },
     ],
   },

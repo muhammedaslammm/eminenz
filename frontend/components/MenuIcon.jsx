@@ -6,7 +6,7 @@ import { useContext } from "react";
 const MenuIcon = () => {
   const { handleMenuStat } = useContext(AppContext);
   return (
-    <div className="md:hidden" onClick={handleMenuStat}>
+    <div className="lg:hidden" onClick={handleMenuStat}>
       <DotsThreeOutline className="h-8 w-8" />
     </div>
   );
