@@ -2,7 +2,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsappIcon() {
-  const phoneNumber = "919048499445";
+  const phoneNumber = "919999999999";
 
   return (
     <a

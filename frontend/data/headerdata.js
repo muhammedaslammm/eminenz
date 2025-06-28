@@ -1,12 +1,13 @@
 const headerdata = {
   navs: [
     { id: 1, label: "Home", path: "#" },
-    { id: 2, label: "Gallery", path: "/gallery" },
+    { id: 2, label: "About Us", path: "#about" },
     { id: 3, label: "Industries", path: "#introduction" },
     { id: 4, label: "Offerings", path: "#offerings" },
     { id: 5, label: "Highlights", path: "#highlights" },
-    { id: 6, label: "Partners", path: "#partners" },
-    { id: 7, label: "About", path: "#about" },
+    { id: 6, label: "Gallery", path: "/gallery" },
+    { id: 7, label: "Partners", path: "#partners" },
+    { id: 8, label: "Contact Us", path: "#contact" },
   ],
   offerings_navs: [
     { id: 10, label: "Home", path: "/" },

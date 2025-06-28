@@ -1,7 +1,7 @@
 const metadata = {
   general: {
     label: "General Enquiries",
-    values: ["totalsolutionssampleemail@gmail.com", "+76 786 276 738"],
+    values: ["info@totalsolutionsmena.com"],
   },
   address: {
     label: "Address",
