@@ -28,16 +28,16 @@ const Industries = ({ data }) => {
       <p className="text-[1.2rem] font-medium leading-[1.6rem] lg:text-[1.3rem]">
         {data.title}
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-8 gap-1 lg:gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-8 gap-1 lg:gap-5">
         {data.icons.map(({ icon, ...rest }) => {
           let Icon = iconMap[icon];
           return (
             <div
               key={rest.id}
-              className="flex flex-col flex-wrap items-center gap-2 border border-[rgba(58,83,96,0.63)] lg:border-0 lg:bg-[rgba(180,211,227,0.65)] py-6 lg:py-8 rounded-[.2rem] lg:rounded-[.5rem]"
+              className="flex flex-col flex-wrap items-center gap-2 border border-[rgba(58,83,96,0.63)] lg:border-0 lg:bg-[rgba(188,213,227,.70)] text-black py-6 lg:py-8 rounded-[.2rem] lg:rounded-[.5rem]"
             >
-              <Icon className="w-7 h-7" weight="light" />
-              <span className="uppercase text-center text-[.8rem] lg:text-[.8rem] font-medium px-2 max-w-[6.5rem] break-words">
+              <Icon className="w-8 h-8" weight="light" />
+              <span className="uppercase text-center text-[.8rem] lg:text-[.8rem] lg:leading-[1.2rem] font-medium px-2 max-w-[6.5rem] break-words">
                 {rest.title}
               </span>
             </div>

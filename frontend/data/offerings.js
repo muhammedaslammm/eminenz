@@ -272,7 +272,7 @@ const offerings = {
       description:
         "On-ground execution of industrial projects through expert installation, commissioning, and preventive maintenance services for plant reliability and safety.",
       image:
-        "https://plus.unsplash.com/premium_photo-1677483760129-9edf1c3f1083?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1745871154147-7db2a43914a4?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       image2:
         "https://images.unsplash.com/photo-1595856619767-ab739fa7daae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       sections: [

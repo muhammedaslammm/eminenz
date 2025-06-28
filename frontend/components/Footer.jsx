@@ -11,8 +11,8 @@ import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const home = usePathname() === "/";
-  const color = home ? "rgba(180,211,227,0.65)" : "rgb(23, 23, 23)";
-  const text_color = home ? "rgb(23, 23, 23)" : "#ffffff";
+  const color = home ? "rgb(23, 23, 23)" : "rgb(23, 23, 23)"; //rgba(188,213,227)
+  const text_color = home ? "#ffffff" : "#ffffff";
   return (
     <footer
       className="pt-5 lg:pt-10 pb-1 lg:pb-2"
