@@ -267,6 +267,80 @@ const offerings = {
     },
     {
       id: 3,
+      slug: "engineering-studies",
+      title: "Engineering Studies",
+      description:
+        "The company offers comprehensive engineering studies including loss prevention, risk assessment, functional safety, and process hazard analysis to ensure safety, reliability, and regulatory compliance in industrial operations.",
+      image: null,
+      image2: null,
+      sections: [
+        {
+          id: 3.1,
+          title: "Studies",
+          items: [
+            {
+              id: 1,
+              title: "Loss Prevention Activities",
+              values: [
+                "Hazardous area classification",
+                "Fire and gas mapping",
+                "Fire water estimation",
+                "Passive fire protection",
+                "Fire and safety equipment layout",
+                "Escape route layout",
+                "Noise and vibration study",
+              ],
+              bg: "",
+              width: "w-full lg:w-4/6",
+            },
+            {
+              id: 2,
+              title: "Risk Assessment",
+              values: [
+                "Gas & smoke dispersion study",
+                "Fera",
+                "Flare radiation and dispersion",
+                "Eesa",
+                "Eera",
+                "Alarp",
+                "Qra",
+              ],
+              bg: "rgba(188,213,227,.40)",
+              width: "w-full lg:w-2/6",
+            },
+            {
+              id: 3,
+              title: "Functional Safety Studies",
+              values: [
+                "Ram - reliability, availability & maintainability",
+                "Safety integrity level (SIL) - classification, verification,validation",
+                "Failure modes effect & criticality analysis (FMEA & FMECA)",
+                "Reliability centered maintenance (RCM)",
+                "Plc validation",
+              ],
+              bg: "",
+              width: "w-full lg:w-4/6",
+            },
+            {
+              id: 4,
+              title: "Process Hazard Analysis",
+              values: [
+                "Hazid",
+                "Hazop",
+                "Envid",
+                "Phser",
+                "Simops/mopp/bowtie",
+                "Ohid/ohra/hra",
+              ],
+              bg: "rgba(188,213,227,.40)",
+              width: "w-full lg:w-2/6",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 4,
       slug: "construction-and-maintenance",
       title: "Construction and maintenance",
       description:
@@ -277,11 +351,11 @@ const offerings = {
         "https://images.unsplash.com/photo-1595856619767-ab739fa7daae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       sections: [
         {
-          id: 3.1,
+          id: 4.1,
           title: "Construction & Maintenance Services",
           items: [
             {
-              id: 3.11,
+              id: 4.11,
               title: "Construction",
               values: [
                 "Equipment Erection",
@@ -294,7 +368,7 @@ const offerings = {
               ],
             },
             {
-              id: 3.12,
+              id: 4.12,
               title: "Maintenance",
               values: [
                 "Preventive Maintenance",
