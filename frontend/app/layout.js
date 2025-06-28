@@ -4,6 +4,7 @@ import { Inter_Tight } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { AppProvider } from "@/context/appContext";
+import WhatsappIcon from "@/components/WhatsappIcon";
 
 const inter_tight = Inter_Tight({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -25,10 +26,13 @@ export default function RootLayout({ children }) {
         className={`antialiased relative bg-white ${inter_tight.className} overflow-x-hidden`}
       >
         <AppProvider>
-          <Header />
-          {children}
+          
+            <Header />
+            {children}
+          
           <Footer />
         </AppProvider>
+          <WhatsappIcon />
       </body>
     </html>
   );
