@@ -271,8 +271,10 @@ const offerings = {
       title: "Engineering Studies",
       description:
         "The company offers comprehensive engineering studies including loss prevention, risk assessment, functional safety, and process hazard analysis to ensure safety, reliability, and regulatory compliance in industrial operations.",
-      image: null,
-      image2: null,
+      image:
+        "https://plus.unsplash.com/premium_photo-1664475061517-44b81f4b66f2?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image2:
+        "https://images.unsplash.com/photo-1709229334707-5b5669e5b5da?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       sections: [
         {
           id: 3.1,

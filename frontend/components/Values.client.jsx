@@ -31,7 +31,7 @@ const Values = ({ values }) => {
           return (
             <div
               key={v.id}
-              style={{ backgroundColor: `${v.bg}` }}
+              style={{ backgroundColor: `${v.bg}`, color: `${v.text_color}` }}
               className={`border border-neutral-300 p-6 rounded-[.8rem] space-y-3`}
             >
               <Icon className="w-6 lg:w-8 h-6 lg:h-8" weight="regular" />
@@ -39,7 +39,7 @@ const Values = ({ values }) => {
                 <h4 className="text-[1.1rem] lg:text-[1.2rem] font-medium lg:font-semibold">
                   {v.title}
                 </h4>
-                <p className="text-[1.1rem] lg:text-[1.3rem] text-neutral-600 leading-[1.6rem] lg:leading-[1.8rem]">
+                <p className="text-[1.1rem] lg:text-[1.3rem]  leading-[1.6rem] lg:leading-[1.8rem]">
                   {v.description}
                 </p>
               </div>

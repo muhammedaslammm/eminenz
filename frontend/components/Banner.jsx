@@ -26,8 +26,8 @@ const Banner = () => {
       <WhiteHeader state={headerStat} />
       <section id="home" className="relative w-full h-screen" ref={bannerRef}>
         <img
-          src="https://plus.unsplash.com/premium_photo-1682144370321-7a2f2583eada?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
+          src="/company_images/main_image.jpg"
+          alt="total solutions banner image"
           className="w-full h-screen md:h-full object-cover"
         />
         <div className="absolute bottom-[70%] translate-y-[70%] left-[50%] -translate-x-[50%] w-full text-center lg:text-left lg:translate-[0] lg:bottom-[4rem] lg:left-[6rem] space-y-2 z-10">
@@ -40,8 +40,8 @@ const Banner = () => {
             pharma and more since 2018
           </p>
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
       </section>
     </>
   );

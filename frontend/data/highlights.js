@@ -10,7 +10,9 @@ const highlights = {
       title_first: false,
       first_align: "self-start text-start",
       second_aligh: "self-end text-end",
-      bg: "rgba(188,213,227,.40)",
+      bg: "rgba(173,135,70,.10)", //rgba(188,213,227,.40),
+      text_color: "rgb(173,135,70)",
+      width: "w-full lg:w-4/6",
     },
     {
       id: 2,
@@ -22,6 +24,7 @@ const highlights = {
       first_align: "self-end text-end",
       second_aligh: "self-start text-start",
       bg: "",
+      width: "w-full w-2/6",
     },
     {
       id: 3,
@@ -33,6 +36,7 @@ const highlights = {
       first_align: "self-start text-start",
       second_aligh: "self-start text-start",
       bg: "",
+      width: "w-full",
     },
     {
       id: 4,
@@ -43,6 +47,7 @@ const highlights = {
       first_align: "self-end text-end",
       second_aligh: "self-start text-start",
       bg: "", //rgba(188,213,227,.40)
+      width: "w-full",
     },
     {
       id: 5,
@@ -53,7 +58,9 @@ const highlights = {
       title_first: true,
       first_align: "self-end text-end",
       second_aligh: "self-end text-end",
-      bg: "rgba(188,213,227,.40)",
+      bg: "rgba(17,65,111,.10)",
+      text_color: "rgb(17,65,111)",
+      width: "w-full",
     },
   ],
 };

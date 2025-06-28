@@ -32,12 +32,19 @@ const About = () => {
               <div
                 key={i}
                 className={`border border-neutral-300 flex-1 p-4 lg:p-6 rounded-[.5rem] space-y-1`}
-                style={{ backgroundColor: `${sec.bg}` }}
+                style={{
+                  backgroundColor: `${sec.bg}`,
+                  color: `${sec.text_color}`,
+                }}
               >
                 <h3 className="text-[1rem] uppercase lg:capitalize lg:text-[1.2rem] font-medium ">
                   {sec.title}
                 </h3>
-                <p className="text-[1.1rem] lg:text-[1.2rem] text-neutral-600 leading-[1.6rem] lg:leading-[1.8rem]">
+                <p
+                  className={
+                    "text-[1.1rem] lg:text-[1.2rem] leading-[1.6rem] lg:leading-[1.8rem]"
+                  }
+                >
                   {sec.description}
                 </p>
               </div>

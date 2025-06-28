@@ -3,7 +3,7 @@ import MetaData from "./MetaData";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full py-10 bg-[rgba(188,213,227,.50)]">
+    <section id="contact" className="w-full py-10 bg-[rgba(17,65,111,.10)]">
       <div className="w-[90%] lg:w-[87%] mx-auto p-4 lg:p-8 bg-white space-y-4">
         <div className="leading-[1.5rem]">
           <h2 className="text-[1.1rem] lg:text-[1.4rem] uppercase font-medium">
