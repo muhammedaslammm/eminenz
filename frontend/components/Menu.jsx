@@ -23,32 +23,13 @@ const Menu = () => {
         <XCircle size={24} color="#630f16" onClick={handleMenuStat} />
       </div>
       <ul>
-        {headerdata.navs.map((item) => {
-          if (item.path.startsWith("/"))
-            return (
-              <li key={item.id} className="py-2">
-                <Link
-                  href={item.path}
-                  className="text-[1.1rem]"
-                  onClick={handleMenuStat}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            );
-          else
-            return (
-              <li key={item.id} className="py-2">
-                <a
-                  href={item.path}
-                  className="text-[1.1rem]"
-                  onClick={handleMenuStat}
-                >
-                  {item.label}
-                </a>
-              </li>
-            );
-        })}
+        {headerdata.navs.map((item) => (
+          <li key={item.id} className="py-2">
+            <Link href={item.path}>
+              <span className="text-[1.1rem]">{item.label}</span>
+            </Link>
+          </li>
+        ))}
       </ul>
 
       <div></div>

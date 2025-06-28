@@ -5,12 +5,13 @@ import Offerings from "@/components/Offerings";
 import Partners from "@/components/Partners";
 import WhyChooseus from "@/components/WhyChooseus";
 import Menu from "@/components/Menu";
-import Table from "@/components/Table";
 import Contact from "@/components/Contact";
+import ScrollIntoSection from "@/components/ScrollIntoSection";
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
+      <ScrollIntoSection />
       <Banner />
       <IntroSection />
       <Offerings />

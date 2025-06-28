@@ -26,13 +26,11 @@ export default function RootLayout({ children }) {
         className={`antialiased relative bg-white ${inter_tight.className} overflow-x-hidden`}
       >
         <AppProvider>
-          
-            <Header />
-            {children}
-          
+          <Header />
+          {children}
           <Footer />
         </AppProvider>
-          <WhatsappIcon />
+        <WhatsappIcon />
       </body>
     </html>
   );
