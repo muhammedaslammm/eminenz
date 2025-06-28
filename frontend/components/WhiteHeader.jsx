@@ -16,28 +16,11 @@ const WhiteHeader = ({ state }) => {
         </Link>
         {true ? (
           <div className="hidden md:block space-x-10">
-            {headerdata.navs.map((data) => {
-              if (data.path.startsWith("/"))
-                return (
-                  <Link
-                    key={data.id}
-                    href={data.path}
-                    className="text-[1.1rem] font-medium"
-                  >
-                    {data.label}
-                  </Link>
-                );
-              else
-                return (
-                  <a
-                    key={data.id}
-                    href={data.path}
-                    className="text-[1.1rem] font-medium"
-                  >
-                    {data.label}
-                  </a>
-                );
-            })}
+            {headerdata.navs.map((data) => (
+              <Link key={data.id} href={data.path}>
+                <span className="text-[1.1rem] font-medium">{data.label}</span>
+              </Link>
+            ))}
           </div>
         ) : (
           <></>
