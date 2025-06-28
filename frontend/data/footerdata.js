@@ -20,7 +20,7 @@ const navcontent = {
 };
 
 const contact = [
-  { id: 1, label: "give us a call", value: "998-090-989" },
+  { id: 1, label: "give us a call", value: "" },
   { id: 2, label: "our location", value: "Abu Dhabi, UAE" },
 ];
 
