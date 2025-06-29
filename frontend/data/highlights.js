@@ -10,10 +10,10 @@ const highlights = {
       title_first: false,
       first_align: "self-start text-start",
       second_aligh: "self-end text-end",
-      bg: "rgba(173,135,70,.10)", //rgba(188,213,227,.40),
-      text_color: "rgb(173,135,70)",
+      bg: "rgba(17,65,111,.10)",
+      text_color: "rgb(17,65,111)", //rgba(173,135,70,.10) gold
       width: "w-full lg:w-4/6",
-    },
+    }, //rgba(173,135,70,.10) gold
     {
       id: 2,
       title: "on-time delivery",
