@@ -35,14 +35,14 @@ const Banner = () => {
             <span className="block">for us,</span>
             <span className="block">business is solving problems</span>
           </h1>
-          <p className="text-[1rem] lg:text-[1.5rem] max-w-[60rem] text-neutral-300 leading-[1.3rem] lg:leading-[2rem]">
-            Delivering engineering excellence across oil & gas, power, food,
-            pharma and more since 2018
+          <p className=" text-[1rem] lg:text-[1.5rem] max-w-[60rem] text-neutral-300 leading-[1.3rem] lg:leading-[2rem]">
+            Delivering engineering excellence across{" "}
+            <strong>oil & gas, power, food, pharma and more since 2009</strong>
           </p>
         </div>
         <a
           href="#contact"
-          className="absolute left-[50%] -translate-[50%] bottom-[.5rem] text-white text-[.6rem] font-semibold uppercase tracking-[.08rem] z-10"
+          className="md:hidden absolute left-[50%] -translate-[50%] bottom-[.5rem] text-white text-[.6rem] font-semibold uppercase tracking-[.08rem] z-10"
         >
           contact us now
         </a>

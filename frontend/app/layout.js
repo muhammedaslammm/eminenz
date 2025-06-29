@@ -14,8 +14,9 @@ const inter_tight = Inter_Tight({
 });
 
 export const metadata = {
-  title: "Your Site Title",
-  description: "Your site description here.",
+  title: "Total Solutions",
+  description:
+    "Total Solutions General Trading W.L.L, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
 };
 
 export default function RootLayout({ children }) {
