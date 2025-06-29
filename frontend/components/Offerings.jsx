@@ -19,6 +19,9 @@ const Offerings = () => {
                 alt={`image representing ${o.title}`}
                 className="h-full w-full object-cover"
               />
+              <p className="absolute top-4 right-4 text-[.7rem] tracking-[.05rem] text-white font-medium z-10 uppercase lg:hidden">
+                view more
+              </p>
               <div className="absolute bottom-4 lg:bottom-10 left-4 lg:left-25 z-10 max-w-[70rem] space-y-1 lg:space-y-2">
                 <h3 className="text-[1rem] lg:text-[1.4rem] text-white font-semibold uppercase">
                   {o.title}
