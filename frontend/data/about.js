@@ -27,8 +27,8 @@ const about = {
         title: "Customer Focus",
         description:
           "We are deeply committed to understanding and fulfilling our clients’ needs through tailored solutions, exceptional service, and continuous feedback-driven improvement.",
-        bg: "rgba(173,135,70,.10)", //rgba(188,213,227,.40),
-        text_color: "rgb(173,135,70)",
+        bg: "rgba(17,65,111,.10)",
+        text_color: "rgb(17,65,111)",
       },
       {
         id: 2,

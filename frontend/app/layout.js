@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </AppProvider>
-        <WhatsappIcon />
+        {/* <WhatsappIcon /> */}
       </body>
     </html>
   );
