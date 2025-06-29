@@ -39,7 +39,7 @@ const Values = ({ values }) => {
                 <h4 className="text-[1.1rem] lg:text-[1.2rem] font-medium lg:font-semibold">
                   {v.title}
                 </h4>
-                <p className="text-[1.1rem] lg:text-[1.3rem]  leading-[1.6rem] lg:leading-[1.8rem]">
+                <p className="text-[1.1rem] lg:text-[1.3rem]  leading-[1.45rem] lg:leading-[1.8rem]">
                   {v.description}
                 </p>
               </div>

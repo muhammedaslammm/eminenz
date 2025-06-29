@@ -22,7 +22,7 @@ const navcontent = {
 };
 
 const contact = [
-  { id: 1, label: "give us a call", value: "" },
+  { id: 1, label: "give us a call", value: "###-###-####" },
   { id: 2, label: "our location", value: "Abu Dhabi, UAE" },
 ];
 

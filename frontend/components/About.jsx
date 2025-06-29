@@ -18,7 +18,7 @@ const About = () => {
             {[about.description1, about.description2].map((desc, i) => (
               <p
                 key={i}
-                className="text-justify text-[1.1rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem]"
+                className="text-justify text-[1.1rem] lg:text-[1.3rem] leading-[1.45rem] lg:leading-[1.8rem]"
               >
                 {desc}
               </p>
@@ -42,7 +42,7 @@ const About = () => {
                 </h3>
                 <p
                   className={
-                    "text-[1.1rem] lg:text-[1.2rem] leading-[1.6rem] lg:leading-[1.8rem]"
+                    "text-[1.1rem] lg:text-[1.2rem] leading-[1.45rem] lg:leading-[1.8rem]"
                   }
                 >
                   {sec.description}

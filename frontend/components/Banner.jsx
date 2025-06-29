@@ -42,7 +42,7 @@ const Banner = () => {
         </div>
         <a
           href="#contact"
-          className="md:hidden absolute left-[50%] -translate-[50%] bottom-[.5rem] text-white text-[.6rem] font-semibold uppercase tracking-[.08rem] z-10"
+          className="md:hidden absolute left-[50%] -translate-[50%] bottom-[1rem] text-white text-[.6rem] font-semibold uppercase tracking-[.08rem] z-10"
         >
           contact us now
         </a>
