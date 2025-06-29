@@ -7,11 +7,15 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
   const { home, pathname } = usePageInfo();
+  const logo =
+    pathname === "home"
+      ? "/totalsolutionslogo_white.png"
+      : "/totalsolutionslogo_blue.png";
   const headerStyle =
     pathname !== "home"
       ? "fixed bg-white border-b border-neutral-300"
       : "absolute";
-  const navStyle = pathname !== "home" ? "text-[rgb(17,65,111)" : "text-white";
+  const navStyle = pathname !== "home" ? "text-[rgb(17,65,111)]" : "text-white";
 
   return (
     <header className={`${headerStyle} top-0 left-0 w-full z-20`}>
@@ -23,7 +27,7 @@ const Header = () => {
           className="w-[8rem] h-[2rem] -translate-x-[1.5rem] lg:w-[10rem] lg:h-[3rem]"
         >
           <img
-            src="/totalsolutionslogo_white.png"
+            src={logo}
             alt="total solutions logo"
             className="w-full h-full object-cover"
           />
