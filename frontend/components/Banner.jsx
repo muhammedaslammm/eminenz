@@ -10,7 +10,7 @@ const Banner = () => {
       ([element]) => {
         setHeaderStat(!element.isIntersecting);
       },
-      { threshold: 0.95 }
+      { threshold: 0.9 }
     );
     if (bannerRef.current) observer.observe(bannerRef.current);
     return () => {
