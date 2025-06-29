@@ -11,7 +11,7 @@ const IntroSection = () => {
         <h1 className="text-[1.1rem] lg:text-[1.3rem] font-semibold uppercase leading-[1.6rem] lg:leading-[1.8rem]">
           {introduction.title}
         </h1>
-        <p className="text-[1.2rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem] text-justify">
+        <p className="text-[1.1rem] lg:text-[1.3rem] leading-[1.5rem] lg:leading-[1.8rem] text-justify">
           {introduction.description}
         </p>
       </div>
