@@ -1,5 +1,6 @@
 "use client";
-import { createContext, useState } from "react";
+import { usePathname } from "next/navigation";
+import { createContext, useEffect, useState } from "react";
 
 const AppContext = createContext();
 
@@ -8,6 +9,11 @@ const AppProvider = ({ children }) => {
   const handleMenuStat = () => {
     setMenuStat(!menuStat);
   };
+
+  const pathname = usePathname();
+  useEffect(() => {
+    setMenuStat(false);
+  }, [pathname]);
 
   const values = { menuStat, handleMenuStat };
   return <AppContext.Provider value={values}>{children}</AppContext.Provider>;

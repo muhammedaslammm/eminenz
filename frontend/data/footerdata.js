@@ -10,12 +10,14 @@ const title = {
 const navcontent = {
   title: "explore",
   contents: [
-    { id: 1, label: "Home", id: "home" },
-    { id: 2, label: "Industries", id: "introduction" },
-    { id: 3, label: "Offerings", id: "offerings" },
-    { id: 4, label: "Highlights", id: "highlights" },
-    { id: 5, label: "Partners", id: "partners" },
-    { id: 6, label: "About", id: "about" },
+    { id: 1, label: "Home", path: "/#" },
+    { id: 2, label: "About Us", path: "/#about" },
+    { id: 3, label: "Industries", path: "/#introduction" },
+    { id: 4, label: "Offerings", path: "/#offerings" },
+    { id: 5, label: "Highlights", path: "/#highlights" },
+    { id: 6, label: "Gallery", path: "/gallery" },
+    { id: 7, label: "Partners", path: "/#partners" },
+    { id: 8, label: "Contact Us", path: "/#contact" },
   ],
 };
 

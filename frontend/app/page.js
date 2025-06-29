@@ -11,7 +11,7 @@ import ScrollIntoSection from "@/components/ScrollIntoSection";
 export default function Home() {
   return (
     <>
-      <ScrollIntoSection />
+      {/* <ScrollIntoSection /> */}
       <Banner />
       <IntroSection />
       <Offerings />

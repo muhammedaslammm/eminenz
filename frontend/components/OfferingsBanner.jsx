@@ -1,11 +1,6 @@
-"use client";
-
-import WhiteHeader from "./WhiteHeader";
-
 const OfferingsBanner = ({ title, description, image }) => {
   return (
     <>
-      <WhiteHeader />
       <div className="relative">
         <img
           src={image}

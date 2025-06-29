@@ -47,7 +47,7 @@ const Footer = () => {
               {navcontent.contents.map((c) => (
                 <a
                   key={c.id}
-                  href={`#${c.id}`}
+                  href={`${c.path}`}
                   className="text-[.9rem] lg:text-[1rem] text-center md:text-start cursor-pointer font-medium"
                 >
                   {c.label}

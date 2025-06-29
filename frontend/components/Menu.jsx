@@ -10,15 +10,19 @@ const Menu = () => {
     <section
       className={`${
         menuStat ? "translate-x-0" : "translate-x-full"
-      } transition-all fixed inset-0 bg-white p-4 space-y-4 z-100`}
+      } transition-all fixed inset-0 bg-white p-4 space-y-4 z-500`}
     >
       <div className="flex justify-between items-center">
         <a
-          href="#"
-          className="text-[1.1rem] font-semibold"
+          href="/#"
+          className="w-[7rem] h-[2rem] -translate-x-[1rem]"
           onClick={handleMenuStat}
         >
-          totalsolution
+          <img
+            src="/totalsolutionslogo_blue.png"
+            alt="total solutions logo"
+            className="w-full h-full object-cover"
+          />
         </a>
         <XCircle size={24} color="#630f16" onClick={handleMenuStat} />
       </div>
@@ -33,8 +37,6 @@ const Menu = () => {
           </li>
         ))}
       </ul>
-
-      <div></div>
     </section>
   );
 };

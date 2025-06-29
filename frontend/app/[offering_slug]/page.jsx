@@ -1,20 +1,11 @@
-// export const dynamic = "force-static";
-
 import OfferingsBanner from "@/components/OfferingsBanner";
 import offerings from "@/data/offerings";
-import { notFound } from "next/navigation";
-
-// export async function generateStaticParams() {
-//   return offerings.offerings.map((item) => ({
-//     offering_slug: item.slug,
-//   }));
-// }
 
 export default async function OfferingPage({ params }) {
   const { offering_slug } = await params;
 
   const data = offerings.offerings.find((data) => offering_slug === data.slug);
-  if (!data) return notFound();
+  if (!data) return <h1>content not found</h1>;
   return (
     <section className="pb-8 pt-12 space-y-6">
       <OfferingsBanner
