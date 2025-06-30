@@ -77,9 +77,14 @@ const Footer = () => {
           style={{ color: text_color }}
         >
           <div className="flex gap-1 items-center">
-            <Copyright color="white" /> {current_year} Total Solutions | Privacy
-            <a href="https://bizdatatech.com/" target="_blank">
-              Policy | Powered by BizdataTech Consultancy Limited Kerala
+            <Copyright color="white" /> {current_year} Total Solutions |
+            PrivacyPolicy |
+            <a
+              href="https://bizdatatech.com/"
+              target="_blank"
+              className="hover:underline"
+            >
+              Powered by BizdataTech Consultancy Limited, Kerala
             </a>
           </div>
           <ul className="flex gap-4">
