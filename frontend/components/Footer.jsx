@@ -7,12 +7,14 @@ import {
   copyright,
   media,
 } from "@/data/footerdata";
+import { Copyright } from "phosphor-react";
 import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const home = usePathname() === "/";
   const color = home ? "rgb(12, 42, 69)" : "rgb(23, 23, 23)"; //rgba(188,213,227)
   const text_color = home ? "#ffffff" : "#ffffff";
+  const current_year = new Date().getFullYear();
   return (
     <footer
       className="pt-5 lg:pt-10 pb-1 lg:pb-2"
@@ -74,7 +76,12 @@ const Footer = () => {
           className="flex flex-col md:flex-row md:justify-between items-center text-[.7rem] lg:text-[.8rem]"
           style={{ color: text_color }}
         >
-          <div>{copyright}</div>
+          <div className="flex gap-1 items-center">
+            <Copyright color="white" /> {current_year} Total Solutions | Privacy
+            <a href="https://bizdatatech.com/" target="_blank">
+              Policy | Powered by BizdataTech Consultancy Limited Kerala
+            </a>
+          </div>
           <ul className="flex gap-4">
             {media.map((m) => (
               <li key={m.id}>{m.label}</li>
