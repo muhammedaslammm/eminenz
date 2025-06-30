@@ -350,10 +350,8 @@ const offerings = {
       short_description:
         "Our Asset Integrity Management Services maintain your assets to ensure productivity, reliability and safety",
 
-      image:
-        "https://images.unsplash.com/photo-1748348389780-3eb3ce44ac65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      image2:
-        "https://images.unsplash.com/photo-1485310818226-f01c4269687f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/company_images/AIM3.jpg",
+      image2: "/company_images/AIM2.jpg",
       sections: [
         {
           id: 4.1,
