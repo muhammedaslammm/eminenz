@@ -25,7 +25,7 @@ export default async function OfferingPage({ params }) {
                   key={item.id}
                   className="border border-neutral-400 shadow-[0_0_.3rem_0rem_#EFF0F1] p-4 lg:p-8 rounded-[1rem] space-y-1 md:space-y-2 text-[1rem]"
                 >
-                  <h3 className="font-medium">{item.title}</h3>
+                  <h3 className="font-medium uppercase">{item.title}</h3>
                   <ul className="list-disc list-inside">
                     {item.values.map((value, index) => (
                       <li key={index}>{value}</li>
