@@ -8,7 +8,7 @@ import Contact from "@/components/Contact";
 import ScrollIntoSection from "@/components/ScrollIntoSection";
 
 export const metadata = {
-  title: "Total Solutions | Oil and Gas Engineering",
+  title: "Oil and Gas Engineering",
   description:
     "Total Solutions General Trading W.L.L, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
   keywords: [

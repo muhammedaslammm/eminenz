@@ -1,8 +1,8 @@
 const about = {
   title: "about us",
-  sub_title: "Total solutions genral trading W.L.L",
+  sub_title: "Total solutions genral trading L.L.C",
   description1:
-    "Total Solutions General Trading LLC is a company based out of Abu Dhabi, U.A.E. Founded in the year 2009 Total Solutions has emerged as a trusted partner for providing products and services in various industries such as Oil/Gas, Power, Food processing, Pharma, Cosmetics, Cement, Glass, Renewable energy, etc. The company was founded by a group of professionals coming from different backgrounds such as Engineering, Finance, Sales & Marketing, etc, with over 120 years of combined industry expertise.",
+    "Total Solutions General Trading L.L.C is a company based out of Abu Dhabi, U.A.E. Founded in the year 2009 Total Solutions has emerged as a trusted partner for providing products and services in various industries such as Oil/Gas, Power, Food processing, Pharma, Cosmetics, Cement, Glass, Renewable energy, etc. The company was founded by a group of professionals coming from different backgrounds such as Engineering, Finance, Sales & Marketing, etc, with over 120 years of combined industry expertise.",
   description2:
     "What sets us apart is our team's diverse expertise gained through extensive exposure to international clients in various industries. Our primary objective is to transform Total Solutions into an organization that caters comprehensively to the needs and challenges faced by industrial customers. We achieve this by consistently delivering high-quality products and services within defined timelines.",
   vision: {

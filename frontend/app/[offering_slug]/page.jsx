@@ -1,6 +1,18 @@
 import OfferingsBanner from "@/components/OfferingsBanner";
 import offerings from "@/data/offerings";
 
+export const metadata = {
+  title: "Offerings",
+  description:
+    "Total Solutions General Trading W.L.L, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
+};
+
+export async function generateStaticParams() {
+  return offerings.offerings.map((offering) => ({
+    offering_slug: offering.slug,
+  }));
+}
+
 export default async function OfferingPage({ params }) {
   const { offering_slug } = await params;
 

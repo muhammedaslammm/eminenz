@@ -4,7 +4,7 @@ const OfferingsBanner = ({ title, description, image }) => {
       <div className="relative">
         <img
           src={image}
-          alt=""
+          alt={`${title} image`}
           className="w-full h-[8rem] lg:h-[15rem] object-cover"
         />
         <div className="absolute bottom-[1rem] left-[1rem] lg:left-[6rem] lg:bottom-[2rem] z-10">

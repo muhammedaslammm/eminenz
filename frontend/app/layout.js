@@ -16,18 +16,35 @@ const inter_tight = Inter_Tight({
 
 export const metadata = {
   title: {
-    default: "Total Solutions",
-    template: "%s",
+    default: "Total Solutions General Trading L.L.C",
+    template: "Total Solutions | %s",
   },
   description:
-    "Total Solutions General Trading W.L.L, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
-  keywords: [
-    "total solutions",
-    "Total Solutions",
-    "Total Solutions UAE",
-    "Oil and Gas",
-    "Engineering",
-  ],
+    "Total Solutions General Trading L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
+  metadataBase: new URL("https://totalsolutionsmena.com"),
+  openGraph: {
+    title: "Total Solutions General Trading L.L.C",
+    description:
+      "Total Solutions General Trading L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
+    url: "https://totalsolutionsmena.com",
+    siteName: "Total Solutions General Trading L.L.C",
+    images: [
+      {
+        url: "/favicon-96x96.png",
+        width: 96,
+        height: 96,
+      },
+    ],
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
+  alternates: {
+    canonical: "https://totalsolutionsmena.com",
+  },
 };
 
 export default function RootLayout({ children }) {
