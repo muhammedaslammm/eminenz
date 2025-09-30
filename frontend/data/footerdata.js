@@ -3,7 +3,7 @@ const meta = {
 };
 
 const title = {
-  company_name: "total solutions",
+  company_name: "Eminenz and Vapsa Engineering Consultancy L.L.C",
   tagline: "For us, business is solving problems",
 };
 
