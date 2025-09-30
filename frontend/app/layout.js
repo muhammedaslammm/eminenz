@@ -16,8 +16,8 @@ const inter_tight = Inter_Tight({
 
 export const metadata = {
   title: {
-    default: "Total Solutions General Trading L.L.C",
-    template: "Total Solutions | %s",
+    default: "Eminenz and Vapsa Engineering consultancy L.L.C",
+    template: "Eminenz and Vapsa | %s",
   },
   description:
     "Total Solutions General Trading L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
@@ -27,7 +27,7 @@ export const metadata = {
     description:
       "Total Solutions General Trading L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
     url: "https://totalsolutionsmena.com",
-    siteName: "Total Solutions General Trading L.L.C",
+    siteName: "Eminenz and Vapsa Engineering consultancy L.L.C",
     images: [
       {
         url: "/favicon-96x96.png",
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
           <Footer />
           <Menu />
         </AppProvider>
-        {/* <WhatsappIcon /> */}
+        <WhatsappIcon />
       </body>
     </html>
   );
