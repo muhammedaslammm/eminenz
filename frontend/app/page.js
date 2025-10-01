@@ -10,11 +10,13 @@ import ScrollIntoSection from "@/components/ScrollIntoSection";
 export const metadata = {
   title: "Oil and Gas Engineering",
   description:
-    "Total Solutions General Trading W.L.L, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
+    "Eminenz and Vapsa Engineering Consultancy L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more.",
   keywords: [
-    "total solutions",
-    "Total Solutions",
-    "Total Solutions UAE",
+    "Eminenz",
+    "Eminenz and Vapsa",
+    "eminenz",
+    "Eminenz and vapsa",
+    "Eminenz and Vapsa Engineering Consultancy",
     "Oil and Gas",
     "Engineering",
   ],

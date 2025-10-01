@@ -1,7 +1,7 @@
 const introduction = {
   title: "Backed by 120+ years of expertise",
   description:
-    "Total Solutions General Trading L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
+    "Eminenz and Vapsa Engineering Consultancy L.L.C, based in Abu Dhabi and founded in 2009, is a trusted provider of industrial engineering products and services across sectors like Oil & Gas, Power, Pharma, and more. Backed by 120+ years of combined expertise, we deliver precision solutions with speed, safety, and quality.",
   industry_data: {
     title: "We serve our products and services to",
     icons: [

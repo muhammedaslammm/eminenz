@@ -1,4 +1,3 @@
-
 "use client";
 import {
   meta,
@@ -87,8 +86,8 @@ const Footer = () => {
           style={{ color: text_color }}
         >
           <div className="flex gap-1 items-center">
-            <Copyright color="white" /> {current_year} Total Solutions |
-            PrivacyPolicy |
+            <Copyright color="white" /> {current_year} Eminenz and Vapsa
+            Engineering Consultancy L.L.C | PrivacyPolicy |
             <a
               href="https://bizdatatech.com/"
               target="_blank"
