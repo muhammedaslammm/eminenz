@@ -22,7 +22,7 @@ const Header = () => {
       >
         <Link
           href="/#"
-          className="w-[8rem] h-[2rem] -translate-x-[2.8rem] lg:w-[15rem] lg:h-[3.5rem]"
+          className="w-[12rem] h-[2rem] -translate-x-[2.8rem] lg:w-[15rem] lg:h-[3.5rem]"
         >
           <img
             src={logo}
