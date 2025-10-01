@@ -26,7 +26,7 @@ const Banner = () => {
       <WhiteHeader state={headerStat} />
       <section id="home" className="relative w-full h-screen" ref={bannerRef}>
         <img
-          src="/company_images/main_image.jpg"
+          src="/company_images/mainimage.png"
           alt="total solutions banner image"
           className="w-full h-screen md:h-full object-cover"
         />

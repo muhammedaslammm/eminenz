@@ -8,9 +8,7 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const { home, pathname } = usePageInfo();
   const logo =
-    pathname === "home"
-      ? "/totalsolutionslogo_white.png"
-      : "/totalsolutionslogo_blue.png";
+    pathname === "home" ? "/eminenz_logo1.png" : "/eminenz_logo1.png";
   const headerStyle =
     pathname !== "home"
       ? "fixed bg-white border-b border-neutral-300"
@@ -24,7 +22,7 @@ const Header = () => {
       >
         <Link
           href="/#"
-          className="w-[8rem] h-[2rem] -translate-x-[1.5rem] lg:w-[10rem] lg:h-[3rem]"
+          className="w-[8rem] h-[2rem] -translate-x-[2.8rem] lg:w-[15rem] lg:h-[3.5rem]"
         >
           <img
             src={logo}

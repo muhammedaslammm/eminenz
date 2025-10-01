@@ -10,13 +10,13 @@ const WhiteHeader = ({ state }) => {
         state ? "translate-y-0" : "-translate-y-full"
       } bg-white text-[rgb(17,65,111)] border-b border-neutral-200 transition-transform duration-700`}
     >
-      <nav className="w-[87%] mx-auto flex justify-between items-center py-1.5 md:py-0">
+      <nav className="w-[87%] mx-auto flex justify-between items-center py-1.5 xl:py-0">
         <Link
           href="/"
-          className="w-[8rem] h-[2rem] -translate-x-[1.5rem] lg:w-[10rem] lg:h-[3rem]"
+          className="w-[12rem] h-[2rem] -translate-x-[2.8rem] lg:w-[15rem] lg:h-[3.5rem]"
         >
           <img
-            src="/totalsolutionslogo_blue.png"
+            src="/eminenz_logo1.png"
             alt=""
             className="w-full h-full object-cover"
           />

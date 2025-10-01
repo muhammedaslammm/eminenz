@@ -22,11 +22,11 @@ const navcontent = {
 };
 
 const contact = [
-  { id: 1, label: "give us a call", value: "###-###-####" },
+  { id: 1, label: "give us a call", value: "+971565740739" },
   { id: 2, label: "our location", value: "Abu Dhabi, UAE" },
 ];
 
-const copyright = "c 2025 Total Solutions | Privacy Policy";
+const copyright = "c 2025 Eminenz | Privacy Policy";
 
 const media = [
   { id: 1, label: "Instagram" },

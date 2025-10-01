@@ -1,13 +1,13 @@
 const metadata = {
   general: {
     label: "General Enquiries",
-    values: ["info@totalsolutionsmena.com"],
+    values: ["Ev-engg.com"],
   },
   address: {
     label: "Address",
     values: [
-      "Mohammed Bin Zayed City, Mohammed Bin Zayed East 0.2, Tatweer Capital LLC Building, Abu Dhabi, UAE",
-    ],
+      "Eminenz and Vapsa Engineering consultancy L.L.C Ali Bin Murshid Al Rumaithi, 121 St.( Street 70), Al Danah, Abu Dhabhi 22217"
+    ]
   },
 };
 
